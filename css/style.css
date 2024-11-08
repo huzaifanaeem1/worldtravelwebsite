@@ -89,8 +89,13 @@ background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("../img/head
     background-size: cover;
     background-repeat:  no-repeat;
 }
-.navbar{
+.navbar {
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 .navbar .logo{
     float: left;
